@@ -7,6 +7,7 @@
 
     <application
         android:allowBackup="true"
+        android:icon="@drawable/logo"
         android:label="מעביר התמונות"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
