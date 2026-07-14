@@ -18,7 +18,8 @@ android {
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
-            java.srcDirs = ['']
+            // אנו מגדירים ל-Gradle לחפש קוד אך ורק בקובץ הספציפי ולא לסרוק את כל תיקיית השורש
+            java.srcDirs = ['.'] 
             res.srcDirs = ['res']
         }
     }
