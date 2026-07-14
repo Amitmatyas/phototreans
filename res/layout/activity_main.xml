@@ -18,7 +18,7 @@
             android:id="@+id/statusTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="מעביר התמונות שלי"
+            android:text="מעביר התמונות"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="#1A5F7A"
