@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F6F9"
+    android:padding="24dp"
+    android:layout_direction="rtl">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/statusTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מעביר התמונות שלי"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1A5F7A"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="אנא חבר את התקן האחסון ולחץ על הכפתור"
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            android:layout_marginBottom="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTransfer"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:text="העבר תמונות"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#2ECC71"
+            app:cornerRadius="100dp"
+            android:elevation="6dp" />
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSetup"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="הגדרה ראשונית של ה-USB"
+        android:textColor="#7F8C8D"
+        android:textSize="14sp" />
+
+</RelativeLayout>
