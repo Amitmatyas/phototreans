@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.application' version '8.1.0'
     id 'org.jetbrains.kotlin.android' version '1.8.0'
 }
 
@@ -18,8 +18,7 @@ android {
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
-            // אנו מגדירים ל-Gradle לחפש קוד אך ורק בקובץ הספציפי ולא לסרוק את כל תיקיית השורש
-            java.srcDirs = ['.'] 
+            java.srcDirs = ['']
             res.srcDirs = ['res']
         }
     }
